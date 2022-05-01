@@ -62,7 +62,9 @@ D. Unit test setup:
    
    
    
+   
    D-1:  Library setup: import sys
+   
    D-2:  Test setup:
                   
          1.  from recursion import c,floyd.
@@ -82,5 +84,4 @@ D. Unit test setup:
                   [sys.maxsize,0,3,4],
                   [sys.maxsize,sys.maxsize,0,1],
                   [sys.maxsize,sys.maxsize,sys.maxsize,0]]
-             
-             
+      
