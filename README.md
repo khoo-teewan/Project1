@@ -17,7 +17,6 @@ A.  Distance matrix:
 
 B.  Recursion program setup:
     B-1.   Library import: sys.
-    
     B-2.  Function definition:
           c function:  Check for all possibilities combination of paths.          
                        Required argument:
@@ -54,8 +53,7 @@ C. Performance test setup:
   
 D. Unit test setup: 
    D-1.  Library setup: import sys
-   
-   D-1.  Test setup:
+   D-2.  Test setup:
                   
          1.  from recursion import c,floyd.
          2.  Test case 1 (test_on_c) --
