@@ -16,8 +16,10 @@ A.  Distance matrix:
                         [NO_PATH, NO_PATH, NO_PATH, 0]]
 
 B.  Recursion program setup:
-    B-1.   Library import: sys.
-    B-2.  Function definition:
+
+
+    B-1:  Library import: sys.
+    B-2:  Function definition:
           c function:  Check for all possibilities combination of paths.          
                        Required argument:
                           lst = length range of index-0 of the matrix, g.
@@ -35,7 +37,8 @@ B.  Recursion program setup:
 C. Performance test setup:
    (Recursion program performance test)
    
-   C-1.   Function definition:  import timeit library to use timeit.repeat() method.  
+   
+   C-1:   Function definition:  import timeit library to use timeit.repeat() method.  
                                  Setup code: import floyd,c from recursion.py;
                                              import sys from standard library.
                                  Test code: run c and floyd functrion, and repeatedly measure execution time.
@@ -44,7 +47,7 @@ C. Performance test setup:
    
    (Imperative program performance test)
    
-   C-2.  Function definition:  import timeit library to use timeit.repeat() method.   
+   C-2:  Function definition:  import timeit library to use timeit.repeat() method.   
                                Setup code: import floyd from imper.py;
                                            import sys and itertools file from standard library.
                                Test code: run floyd and repeatedly measure execution time.
@@ -52,8 +55,10 @@ C. Performance test setup:
                                Number: 5000
   
 D. Unit test setup: 
-   D-1.  Library setup: import sys
-   D-2.  Test setup:
+   
+   
+   D-1:  Library setup: import sys
+   D-2:  Test setup:
                   
          1.  from recursion import c,floyd.
          2.  Test case 1 (test_on_c) --
