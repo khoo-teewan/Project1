@@ -38,7 +38,7 @@ C. Performance test setup:
    (Recursion program performance test)
    
    
-   C-1:   Function definition:  import timeit library to use timeit.repeat() method.  
+     C-1:   Function definition:  import timeit library to use timeit.repeat() method.  
                                  Setup code: import floyd,c from recursion.py;
                                              import sys from standard library.
                                  Test code: run c and floyd functrion, and repeatedly measure execution time.
@@ -47,7 +47,7 @@ C. Performance test setup:
    
    (Imperative program performance test)
    
-   C-2:  Function definition:  import timeit library to use timeit.repeat() method.   
+     C-2:  Function definition:  import timeit library to use timeit.repeat() method.   
                                Setup code: import floyd from imper.py;
                                            import sys and itertools file from standard library.
                                Test code: run floyd and repeatedly measure execution time.
@@ -55,6 +55,8 @@ C. Performance test setup:
                                Number: 5000
   
 D. Unit test setup: 
+   
+   
    
    
    D-1:  Library setup: import sys
